@@ -9,29 +9,29 @@ st.divider()
 
 # === Раздел: Холдинг ===
 st.subheader("Холдинг (ежемесячно)")
-with open("/home/aroman@dellin.local/NLP/CSI/ФЗ ДЛЯ ДЖИРЫ/ФЗ ДЖИРА ОСП/monthly_holding.html", "r", encoding="utf-8") as f:
+with open("monthly_holding.html", "r", encoding="utf-8") as f:
     st.components.v1.html(f.read(), height=600, scrolling=True)
 
 st.subheader("Холдинг (еженедельно)")
-with open("/home/aroman@dellin.local/NLP/CSI/ФЗ ДЛЯ ДЖИРЫ/ФЗ ДЖИРА ОСП/weekly_holding.html", "r", encoding="utf-8") as f:
+with open("weekly_holding.html", "r", encoding="utf-8") as f:
     st.components.v1.html(f.read(), height=600, scrolling=True)
 
 st.divider()
 
 # === Раздел: Регионы ===
 st.subheader("Регионы (ежемесячно)")
-with open("/home/aroman@dellin.local/NLP/CSI/ФЗ ДЛЯ ДЖИРЫ/ФЗ ДЖИРА ОСП/monthly_region.html", "r", encoding="utf-8") as f:
+with open("monthly_region.html", "r", encoding="utf-8") as f:
     st.components.v1.html(f.read(), height=600, scrolling=True)
 
 st.subheader("Регионы (еженедельно)")
-with open("/home/aroman@dellin.local/NLP/CSI/ФЗ ДЛЯ ДЖИРЫ/ФЗ ДЖИРА ОСП/weekly_region.html", "r", encoding="utf-8") as f:
+with open("weekly_region.html", "r", encoding="utf-8") as f:
     st.components.v1.html(f.read(), height=600, scrolling=True)
 
 st.divider()
 
 # === Раздел: Топ ОСП ===
 st.subheader("🏢 Топ-ОСП по отклонениям (ежемесячно)")
-with open("/home/aroman@dellin.local/NLP/CSI/ФЗ ДЛЯ ДЖИРЫ/ФЗ ДЖИРА ОСП/top_osp_monthly.html", "r", encoding="utf-8") as f:
+with open("top_osp_monthly.html", "r", encoding="utf-8") as f:
     st.components.v1.html(f.read(), height=600, scrolling=True)
 
 st.divider()
