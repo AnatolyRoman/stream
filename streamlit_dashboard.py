@@ -35,4 +35,4 @@ with open("top_osp_monthly.html", "r", encoding="utf-8") as f:
     st.components.v1.html(f.read(), height=600, scrolling=True)
 
 st.divider()
-st.markdown("© Анатолий, 2025. Все данные взяты из CSI-опросов.")
+st.markdown("© Роман Анатолий, 2025.")
